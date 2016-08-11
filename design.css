@@ -19,13 +19,13 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.32);
   position: fixed;
     top: 0;
     background: rgba(152, 147, 147, 0.46);
-    border-bottom: 2px solid #676443;
+    border-bottom: 2px solid #3e3e3d;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.32);
 }
 
 .header{
       background: rgba(117, 155, 155, 0.19);
-      padding-top:5em;
+      padding-top:10em;
       padding-bottom: 1em;
       color: #bdbdb7;
 
