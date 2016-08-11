@@ -18,7 +18,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.32);
   width:100%;
   position: fixed;
     top: 0;
-    background: rgba(152, 147, 147, 0.46);
+    background: rgba(58, 58, 58, 0.46);
     border-bottom: 2px solid #3e3e3d;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.32);
 }
@@ -58,12 +58,12 @@ li a {
 
 ol.b{
   margin-bottom: 300px;
-  margin-left: 300px;
+  margin-left: 150px;
   color: black;
 }
 
 h2{
-  margin-left: 300px;
+  margin-left: 200px;
   color: black;
 }
 
@@ -88,7 +88,7 @@ li a:hover {
   height: 1000px;
     background: rgba(117, 155, 155, 0.19);
     text-align: left;
-    padding-top:72em;
+    padding-top:52em;
 }
 
 @media screen and (max-width: 720px){
