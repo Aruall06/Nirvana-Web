@@ -27,6 +27,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.32);
       background: rgba(117, 155, 155, 0.19);
       padding-top:5em;
       padding-bottom: 1em;
+      color: #bdbdb7;
 
 }
 
@@ -70,7 +71,7 @@ h1{
   font-size: 30px;
 }
 li a:hover {
-    background-color: yellow;
+    background-color: #fff000;
     font: black;
 }
 
