@@ -27,7 +27,13 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.32);
       background: rgba(117, 155, 155, 0.19);
       padding-top:5em;
       padding-bottom: 1em;
-      text-align: left;
+
+}
+
+.info{
+  text-align: left;
+
+  margin-left: 100px;
 }
 
 ul.a {
