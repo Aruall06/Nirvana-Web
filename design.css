@@ -28,7 +28,6 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.32);
       padding-top:10em;
       padding-bottom: 1em;
       color: #bdbdb7;
-
 }
 
 .info{
@@ -93,11 +92,29 @@ li a:hover {
 
 @media screen and (max-width: 720px){
 
+body{
+  background-size: contain;
+}
+.header{
+  padding-top: 5em;
+  text-shadow: 1px 1px #000;
+}
+.content{
+  padding-top: 10em;
+}
+ul.a{
+  font-size: 9px;
+}
   .menu{
   width: 100%;
   float: right;
   }
-
+  h1{
+    font-size: 15px;
+  }
+.info{
+  font-size: 12px;
+}
   section{
     width: 100%;
     float: none;
