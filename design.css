@@ -28,7 +28,8 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.32);
       background: rgba(117, 155, 155, 0.19);
       padding-top:10em;
       padding-bottom: 1em;
-      color: #bdbdb7;
+      color: #fff000;
+      text-shadow: 1px 1px 1px  #000;
 }
 
 .info{
@@ -49,7 +50,7 @@ ul.a {
 li a {
   font-size: 1.3em;
   font-weight: 700;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -73,6 +74,7 @@ h1{
 li a:hover {
     background-color: #fff000;
     font: black;
+    color: black;
 }
 
 .active {
@@ -88,7 +90,7 @@ li a:hover {
   height: 1000px;
     background: rgba(117, 155, 155, 0.19);
     text-align: left;
-    padding-top:52em;
+    padding-top:22em;
 }
 
 
@@ -99,7 +101,6 @@ body{
 }
 .header{
   padding-top: 5em;
-  text-shadow: 1px 1px #000;
 }
 .content{
   padding-top: 5em;
