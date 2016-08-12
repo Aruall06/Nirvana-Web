@@ -100,10 +100,11 @@ body{
   text-shadow: 1px 1px #000;
 }
 .content{
-  padding-top: 10em;
+  padding-top: 5em;
+  font-size: 12px;
 }
 ul.a{
-  font-size: 9px;
+  font-size: 6px;
 }
   .menu{
   width: 100%;
@@ -111,6 +112,10 @@ ul.a{
   }
   h1{
     font-size: 15px;
+  }
+  .img{
+    max-width: 90px;
+    max-height: 25.5px;
   }
 .info{
   font-size: 12px;
