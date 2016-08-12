@@ -72,6 +72,8 @@ h1{
   font-size: 30px;
 }
 li a:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
     background-color: #fff000;
     font: black;
     color: black;
@@ -91,6 +93,16 @@ li a:hover {
     background: rgba(117, 155, 155, 0.19);
     text-align: left;
     padding-top:22em;
+}
+
+footer{
+  width:100%;
+  height: auto;
+  text-align: right;
+  position:absolute;
+    background: rgba(58, 58, 58, 0.46);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.32);
+
 }
 
 
@@ -126,5 +138,23 @@ ul.a{
   section{
     width: 100%;
     float: none;
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
   }
 }
